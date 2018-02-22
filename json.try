@@ -1,0 +1,555 @@
+instalar json db
+npm install -g json-server
+
+# Clone the repository
+git clone https://github.com/ngrx/platform.git
+
+# Go to the example directory
+cd platform
+
+# Install the dependencies
+yarn
+
+# Start the server
+yarn run build && yarn run cli serve
+
+# Or try
+yarn run example:start
+
+e fazer npm install nos dois projectos
+
+
+list:
+{  
+   "todos":[  
+      {  
+         "id":9,
+         "collection_id":1,
+         "section_id":3,
+         "created_user_id":0,
+         "assigned_user_id":2,
+         "entity_id":11,
+         "record_id":2218,
+         "type_id":100,
+         "title":"Title goes here",
+         "text":"Verify lease agreement",
+         "due_at":"2018-01-01",
+         "start_at":null,
+         "duration":null,
+         "sort_order":0,
+         "priority":0,
+         "url":"https:\/\/demo.bricksdata.com\/orders#\/f\/15\/2218",
+         "attachments":[  
+
+         ],
+         "tag_ids":[  
+            1,
+            2
+         ],
+         "completed_at":"0000-00-00 00:00:00",
+         "notify":0,
+         "notified":0,
+         "created_at":null,
+         "updated_at":"2018-02-13 09:40:59",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":100,
+            "name":"Other",
+            "icon":"schedule"
+         }
+      },
+      {  
+         "id":44,
+         "collection_id":1,
+         "section_id":2,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":100,
+         "title":"my title",
+         "text":"my text",
+         "due_at":null,
+         "start_at":null,
+         "duration":45,
+         "sort_order":0,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":[  
+            3,
+            1
+         ],
+         "completed_at":"2018-02-15 14:18:13",
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-13 14:41:49",
+         "updated_at":"2018-02-19 12:43:46",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":100,
+            "name":"Other",
+            "icon":"schedule"
+         }
+      },
+      {  
+         "id":56,
+         "collection_id":1,
+         "section_id":1,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":2,
+         "title":"new First one",
+         "text":"New Todo",
+         "due_at":null,
+         "start_at":null,
+         "duration":45,
+         "sort_order":0,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":null,
+         "completed_at":null,
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-17 10:46:55",
+         "updated_at":"2018-02-17 12:03:41",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":2,
+            "name":"Meeting",
+            "icon":"people-outline"
+         }
+      },
+      {  
+         "id":58,
+         "collection_id":1,
+         "section_id":3,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":1,
+         "title":"Add a title",
+         "text":"New Todo",
+         "due_at":null,
+         "start_at":null,
+         "duration":15,
+         "sort_order":0,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":null,
+         "completed_at":null,
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-17 10:55:10",
+         "updated_at":"2018-02-17 10:55:10",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":1,
+            "name":"Call",
+            "icon":"call"
+         }
+      },
+      {  
+         "id":39,
+         "collection_id":1,
+         "section_id":1,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":3,
+         "title":"Add a title",
+         "text":"New Todo",
+         "due_at":null,
+         "start_at":null,
+         "duration":30,
+         "sort_order":1,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":[  
+            3,
+            1
+         ],
+         "completed_at":"2018-02-13 14:44:14",
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-13 14:29:16",
+         "updated_at":"2018-02-17 12:05:37",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":3,
+            "name":"Email",
+            "icon":"email"
+         }
+      },
+      {  
+         "id":55,
+         "collection_id":1,
+         "section_id":1,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":1,
+         "title":"Add a title",
+         "text":"New Todo",
+         "due_at":null,
+         "start_at":null,
+         "duration":15,
+         "sort_order":3,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":null,
+         "completed_at":null,
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-16 09:53:28",
+         "updated_at":"2018-02-17 12:05:37",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":1,
+            "name":"Call",
+            "icon":"call"
+         }
+      },
+      {  
+         "id":57,
+         "collection_id":1,
+         "section_id":1,
+         "created_user_id":2,
+         "assigned_user_id":2,
+         "entity_id":0,
+         "record_id":0,
+         "type_id":100,
+         "title":"Add a title",
+         "text":"New Todo",
+         "due_at":null,
+         "start_at":null,
+         "duration":45,
+         "sort_order":5,
+         "priority":0,
+         "url":"",
+         "attachments":null,
+         "tag_ids":null,
+         "completed_at":null,
+         "notify":0,
+         "notified":0,
+         "created_at":"2018-02-17 10:46:59",
+         "updated_at":"2018-02-17 12:05:37",
+         "viewIds":[  
+
+         ],
+         "assigned_user":{  
+            "id":2,
+            "username":"Sofie Fatale",
+            "first_name":"Sofie",
+            "last_name":"Fatale",
+            "profile_image":"https:\/\/loremflickr.com\/100\/100\/face?random=2"
+         },
+         "type":{  
+            "id":100,
+            "name":"Other",
+            "icon":"schedule"
+         }
+      }
+   ],
+   "sections":{  
+      "3":{  
+         "id":3,
+         "user_id":2,
+         "title":"Desktop",
+         "sort_order":0,
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-02-19 13:56:02"
+      },
+      "1":{  
+         "id":1,
+         "user_id":2,
+         "title":"Web",
+         "sort_order":1,
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-02-19 13:56:02"
+      },
+      "2":{  
+         "id":2,
+         "user_id":2,
+         "title":"Mobile",
+         "sort_order":3,
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-02-19 13:56:02"
+      },
+      "4":{  
+         "id":4,
+         "user_id":2,
+         "title":"t",
+         "sort_order":18,
+         "public":0,
+         "created_at":"2018-02-10 08:55:15",
+         "updated_at":"2018-02-19 13:56:02"
+      },
+      "5":{  
+         "id":5,
+         "user_id":2,
+         "title":"New Section",
+         "sort_order":19,
+         "public":0,
+         "created_at":"2018-02-15 13:48:51",
+         "updated_at":"2018-02-19 13:56:02"
+      }
+   },
+   "collections":[  
+      {  
+         "id":1,
+         "title":"Collection 1",
+         "sort_order":0,
+         "enabled":1
+      }
+   ],
+   "views":[  
+      {  
+         "id":1,
+         "user_id":2,
+         "title":"Past Due",
+         "conditions":{  
+            "type":"ScopeAnd",
+            "terms":[  
+               {  
+                  "type":"Condition",
+                  "value":"{today}",
+                  "column":"due_at",
+                  "operator":"before"
+               }
+            ]
+         },
+         "sort_order":0,
+         "color":"",
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-01-09 21:31:55",
+         "todoIds":[  
+            9,
+            44,
+            56,
+            58,
+            39,
+            55,
+            57
+         ]
+      },
+      {  
+         "id":2,
+         "user_id":2,
+         "title":"Today",
+         "conditions":{  
+            "type":"ScopeAnd",
+            "terms":[  
+               {  
+                  "type":"Condition",
+                  "value":"{today}",
+                  "column":"due_at",
+                  "operator":"="
+               }
+            ]
+         },
+         "sort_order":1,
+         "color":"",
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-01-09 21:31:55",
+         "todoIds":[  
+
+         ]
+      },
+      {  
+         "id":5,
+         "user_id":2,
+         "title":"Today's Calls",
+         "conditions":{  
+            "type":"ScopeAnd",
+            "terms":[  
+               {  
+                  "type":"Condition",
+                  "value":"{today}",
+                  "column":"due_at",
+                  "operator":"after"
+               },
+               {  
+                  "type":"Condition",
+                  "value":"1",
+                  "column":"type_id",
+                  "operator":"="
+               }
+            ]
+         },
+         "sort_order":2,
+         "color":"",
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-01-09 21:31:55",
+         "todoIds":[  
+
+         ]
+      },
+      {  
+         "id":3,
+         "user_id":2,
+         "title":"Tomorrow",
+         "conditions":{  
+            "type":"ScopeAnd",
+            "terms":[  
+               {  
+                  "type":"Condition",
+                  "value":"{tomorrow}",
+                  "column":"due_at",
+                  "operator":"="
+               }
+            ]
+         },
+         "sort_order":3,
+         "color":"",
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-01-09 21:31:55",
+         "todoIds":[  
+
+         ]
+      },
+      {  
+         "id":4,
+         "user_id":2,
+         "title":"Upcoming",
+         "conditions":{  
+            "type":"ScopeAnd",
+            "terms":[  
+               {  
+                  "type":"Condition",
+                  "value":"{tomorrow}",
+                  "column":"due_at",
+                  "operator":"after"
+               }
+            ]
+         },
+         "sort_order":4,
+         "color":"",
+         "public":1,
+         "created_at":"2018-01-09 21:31:55",
+         "updated_at":"2018-01-09 21:31:55",
+         "todoIds":[  
+
+         ]
+      }
+   ],
+   "tags":{  
+      "1":{  
+         "id":1,
+         "name":"High Priority",
+         "color":"red"
+      },
+      "2":{  
+         "id":2,
+         "name":"Need Info",
+         "color":"orange"
+      },
+      "3":{  
+         "id":3,
+         "name":"Almost Done",
+         "color":"green"
+      }
+   },
+   "status":"success"
+}
+
+get types:
+{  
+   "types":[  
+      {  
+         "id":1,
+         "name":"Call",
+         "icon":"call",
+         "default_duration":15
+      },
+      {  
+         "id":2,
+         "name":"Meeting",
+         "icon":"people-outline",
+         "default_duration":45
+      },
+      {  
+         "id":3,
+         "name":"Email",
+         "icon":"email",
+         "default_duration":30
+      },
+      {  
+         "id":100,
+         "name":"Other",
+         "icon":"schedule",
+         "default_duration":45
+      }
+   ],
+   "status":"success"
+}
